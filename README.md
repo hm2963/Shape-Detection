@@ -48,12 +48,3 @@ g++ main.cpp -o shape_detection `pkg-config --cflags --libs opencv4`
 1. Place your test image in the project folder.
 2. Update the `imread` path in `main.cpp` to your image file.
 3. Run the program to see detected shapes.
-
-## Example Output
-![Example Detected Shapes](example.png)
-
-```
-Detected Shapes:  
-- Green contours drawn around shapes  
-- Labels like "Square", "Triangle", "Circle" on detected objects
-```
